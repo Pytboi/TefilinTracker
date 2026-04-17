@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Firebase — contains project-specific API keys and must NOT be committed
+# to a public repo. Each developer places their own google-services.json
+# in app/ locally.
+google-services.json
+app/google-services.json
+
+# Claude Code local context file — not part of Bagrut submission
+CLAUDE.md
